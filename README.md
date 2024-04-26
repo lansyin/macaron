@@ -1,0 +1,9 @@
+![](<./preview.png>)
+
+# Usage
+
+Install [Oh My Posh][omp] and [configure your prompt][cfg] with `--config <theme-path>` where `<theme-path>` is the path to *macaron.omp.json*.
+
+[omp]: <https://ohmyposh.dev/docs/>
+[cfg]: <https://ohmyposh.dev/docs/installation/customize#config-syntax>
+
