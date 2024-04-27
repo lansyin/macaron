@@ -54,7 +54,7 @@
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
           "foreground": "#193549",
-          "background": "#ffa5a5",
+          "background": "#ffacac",
           "template": " {{ if gt .Code 0 }}\uf00d {{ .Meaning }}{{ else }}\uf42e{{ end }} "
         }
       ]
