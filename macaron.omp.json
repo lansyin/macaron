@@ -35,7 +35,7 @@
           "background": "#cbfafa",
           "template": " {{ .Path }} ",
           "properties": {
-            "folder_icon": "\uf115",
+            "folder_icon": "\uf07c",
             "folder_separator_icon": " \ue0b1 ",
             "home_icon": "\uf015",
             "style": "agnoster"
@@ -50,11 +50,11 @@
           "template": " {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }} "
         },
         {
-          "type": "exit",
+          "type": "status",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
           "foreground": "#193549",
-          "background": "#ffc6bf",
+          "background": "#ffa5a5",
           "template": " {{ if gt .Code 0 }}\uf00d {{ .Meaning }}{{ else }}\uf42e{{ end }} "
         }
       ]
